@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mobile-main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pc-main.css">
+</head>
+<body>
+<div class="app-body">
+    <div class="app-side">
+        <div class="side-author gap-0d5">
+            <div class="side-author-head ">
+                <img width="40" src="assets/me.avif">
+            </div>
+            <div class="side-author-synopsis">
+                <span class="side-author-synopsis-author">
+                    {{ site.author }}
+                </span>
+                <span class="side-author-synopsis-job">
+                    {{ site.job}}
+                </span>
+            </div>
+        </div>
+        <div class="gap-0d5">
+            {% for navigation_bar in site.navigation_bars %}
+                <a href="{{ navigation_bar.url }}">{{ navigation_bar.title }}</a>
+            {% endfor %}
+        </div>
+
+    </div>
+    <div class="app-content">
+        2
+    </div>
+</div>
+</body>
+</html>

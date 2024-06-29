@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.app-body {
+    display: flex;
+    height: 100%;
+}
+
+.app-side {
+    width: 15rem;
+    min-width: 15rem;
+    padding: .75rem;
+    background-color: rgb(250 250 250);
+    height: 100%;
+}
+
+.side-author {
+    display: flex;
+}
+.side-author-head > img {
+    border-radius: 9999px
+}
+
+.side-author-synopsis {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.gap-0d5 {
+    gap: 0.5rem
+}
