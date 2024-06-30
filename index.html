@@ -7,8 +7,22 @@ layout: default
     <meta charset="UTF-8">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/root.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mobile-main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/pc-main.css">
+
+
+    <link rel="preload" href="assets/fonts/Geist-Regular.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/Geist-Medium.otf" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/Geist-Regular.otf" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/Geist-Regular.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/SpaceGrotesk-Bold.ttf" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/SpaceGrotesk-Medium.ttf" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/SpaceGrotesk-Regular.ttf" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="assets/fonts/SpaceGrotesk-SemiBold.ttf" as="font" crossorigin="" type="font/woff2" />
+
+
+
 </head>
 <body>
 <div class="app-body">
@@ -18,24 +32,33 @@ layout: default
                 <img width="40" src="assets/me.avif">
             </div>
             <div class="side-author-synopsis">
-                <span class="side-author-synopsis-author">
+                <span class="side-author-synopsis-author font-semibold tracking-tight">
                     {{ site.author }}
                 </span>
-                <span class="side-author-synopsis-job">
+                    <span class="side-author-synopsis-job">
                     {{ site.job}}
                 </span>
             </div>
         </div>
-        <div class="gap-0d5">
+        <div id="app-side-navigation" class="gap-0d5 app-side-navigation-bars">
             {% for navigation_bar in site.navigation_bars %}
-                <a href="{{ navigation_bar.url }}">{{ navigation_bar.title }}</a>
+            <a id="{{ navigation_bar.url }}" href="#{{ navigation_bar.url }}" class="app-side-navigation-bar {% if forloop.first %} navigation_bar_click {% endif %}">
+                <span class="navigation_bar_url gap-0d5">
+                    {% include icon.html icon=navigation_bar.icon %}
+                    <span>{{ navigation_bar.title }}</span>
+                </span>
+                <span class="navigation_bar_index font-size-small">{{ forloop.index }}</span>
+            </a>
             {% endfor %}
         </div>
-
     </div>
     <div class="app-content">
-        2
+
     </div>
 </div>
 </body>
+
+<script src="assets/js/main.js" async></script>
+
+
 </html>

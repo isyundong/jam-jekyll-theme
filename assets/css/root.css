@@ -1,0 +1,6 @@
+:root {
+    --font-geist-mono: "__GeistMono_8a4d12",ui-monospace,SFMono-Regular,Roboto Mono,Menlo,Monaco,Liberation Mono,DejaVu Sans Mono,Courier New,monospace;
+    --font-geist-sans: "__GeistSans_ac79ff","__GeistSans_Fallback_ac79ff";
+
+    --font-size-small: 12px;
+}

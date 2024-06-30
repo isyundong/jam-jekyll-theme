@@ -1,15 +1,21 @@
 title: isyundong.com
-author: isyundong
+author: Yundong Zhang
 job: Software Engineer
 
 navigation_bars:
   - title: Home
-    url: /home
+    url: home
+    icon: sparkles
   - title: Writing
-    url: /writing
+    url: "writing"
+    icon: pencil-line
   - title: Journey
-    url: /journey
+    url: "journey"
+    icon: navigation
   - title: Stack
-    url: /stack
+    url: "stack"
+    icon: wand-sparkles
   - title: Bookmarks
-    url: /bookmarks
+    url: "bookmarks"
+    icon: bookmark
+
