@@ -1,0 +1,42 @@
+<div class="side_side_">
+    <div class="include-writing">
+        <div class="include-writing-head">
+        <span>
+            Writing
+        </span>
+        </div>
+        <div class="include-writing-body gap-0d30">
+            {% for post in site.posts %}
+            <div onclick="app_content_writing_click('app-content-writing-{{ forloop.index }}')" class="include-writing-post gap-0d5" id="app-content-writing-{{ forloop.index }}">
+                <div class="post_title">
+                    {{ post.title }}
+                </div>
+                <div class="include-writing-post-basic-information">
+                    <span class="include-writing-post-basic-information-date">
+                       {{ post.date | date: "%B %d, %Y" }}
+                    </span>
+                    <span class="include-writing-post-basic-information-views">
+                       2,999 views
+                    </span>
+                </div>
+                <div id="app-content-writing-{{ forloop.index }}-post" class="include-writing-post-content">
+                    <div class="include-writing-post-content-title">
+                        {{ post.title }}
+                    </div>
+                    <div class="include-writing-post-content-date">
+                        {{ post.date | date: "%B %d, %Y" }}
+                    </div>
+                    <div class="include-writing-post-content-post">
+                        {{ post }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="include-writing-post-content-block" id="include-writing-post-content-block">
+        <div>
+
+        </div>
+    </div>
+</div>

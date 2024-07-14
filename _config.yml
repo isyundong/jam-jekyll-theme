@@ -2,19 +2,26 @@ title: isyundong.com
 author: Yundong Zhang
 job: Software Engineer
 
+home_author_destination: |
+  Hi 👋 I'm Onur (meaning "Honour" in English), a software engineer, dj, writer, and minimalist based in Amsterdam, The Netherlands.
+  
+  I develop things as a Senior Frontend Software Engineer at Bitvavo. Previously, I worked as a Senior Frontend Software Engineer at heycar, Frontend Software Engineer at Yemeksepeti, Fullstack Software Engineer at Sistas, Mobile Developer at Tanbula, and Specialist at Apple.
+
+
+
 navigation_bars:
   - title: Home
-    url: home
+    url: "home"
     icon: sparkles
   - title: Writing
     url: "writing"
     icon: pencil-line
-  - title: Journey
-    url: "journey"
-    icon: navigation
-  - title: Stack
-    url: "stack"
-    icon: wand-sparkles
+#  - title: Journey
+#    url: "journey"
+#    icon: navigation
+#  - title: Stack
+#    url: "stack"
+#    icon: wand-sparkles
   - title: Bookmarks
     url: "bookmarks"
     icon: bookmark

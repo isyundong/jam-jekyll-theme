@@ -1,0 +1,55 @@
+
+<div class="side_side_">
+    <div class="include-writing">
+        <div class="include-writing-head">
+        <span>
+            Bookmarks
+        </span>
+        </div>
+        <div class="include-writing-body gap-0d30">
+            {% for category in site.data.bookmarks.bookmark_list %}
+                {% assign title = category[0] %}
+                {% assign links = category[1] %}
+                <div onclick="app_content_bookmark_click('app-content-bookmark-{{ forloop.index }}')" class="include-writing-post gap-0d5" id="app-content-bookmark-{{ forloop.index }}">
+                    <div class="post_title">
+                        {{ title }}
+                    </div>
+                    <div class="include-writing-post-basic-information">
+                        {{ links | size }} bookmarks
+                    </div>
+                </div>
+                <div id="app-content-bookmark-{{ forloop.index }}-post" class="include-writing-post-content">
+                    <div class="include-writing-post-content-title">
+                        {{ title }}
+                    </div>
+                    <div class="include-writing-post-content-date">
+
+                    </div>
+                    <div class="include-writing-post-content-post bookmark_block_p">
+                        <div class="bookmark_block">
+                            {% for link in links %}
+                                {% assign remainder1 = forloop.index0 | modulo: 2 %}
+                                {% if remainder1 == 0 %}
+                                    {% include bookmark_block.html link=link %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="bookmark_block">
+                            {% for link in links %}
+                                {% assign remainder2 = forloop.index0 | modulo: 2 %}
+                                {% if remainder2 != 0 %}
+                                    {% include bookmark_block.html link=link %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="include-writing-post-content-block" id="include-bookmark-post-content-block">
+        <div>
+
+        </div>
+    </div>
+</div>

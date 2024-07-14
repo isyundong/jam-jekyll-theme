@@ -11,17 +11,18 @@ layout: default
     <link rel="stylesheet" type="text/css" href="assets/css/mobile-main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/pc-main.css">
 
+<!--    <link rel="preload" href="assets/fonts/Geist-Regular.woff2" as="font" crossorigin="" type="font/woff2" />-->
+<!--    <link rel="preload" href="assets/fonts/Geist-Regular.woff2" as="font" crossorigin="" type="font/woff2" />-->
+<!--    <link rel="preload" href="assets/fonts/ec1a1eae803b668e-s.p.woff2" as="font" crossorigin="" type="font/woff2" />-->
+<!--    <link rel="preload" href="assets/fonts/f980ec13b5b5e554.p.woff2" as="font" crossorigin="" type="font/woff2" />-->
 
-    <link rel="preload" href="assets/fonts/Geist-Regular.woff2" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/Geist-Medium.otf" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/Geist-Regular.otf" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/Geist-Regular.woff2" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/SpaceGrotesk-Bold.ttf" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/SpaceGrotesk-Medium.ttf" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/SpaceGrotesk-Regular.ttf" as="font" crossorigin="" type="font/woff2" />
-    <link rel="preload" href="assets/fonts/SpaceGrotesk-SemiBold.ttf" as="font" crossorigin="" type="font/woff2" />
-
-
+<!--    <link rel="preload" href="assets/fonts/Geist-Medium.otf" as="font" crossorigin="" type="font/otf" />-->
+<!--    <link rel="preload" href="assets/fonts/Geist-Regular.otf" as="font" crossorigin="" type="font/otf" />-->
+<!--    <link rel="preload" href="assets/fonts/SpaceGrotesk-Bold.ttf" as="font" crossorigin="" type="font/otf" />-->
+<!--    <link rel="preload" href="assets/fonts/SpaceGrotesk-Medium.ttf" as="font" crossorigin="" type="font/otf" />-->
+<!--    <link rel="preload" href="assets/fonts/SpaceGrotesk-Regular.ttf" as="font" crossorigin="" type="font/otf" />-->
+<!--    <link rel="preload" href="assets/fonts/SpaceGrotesk-SemiBold.ttf" as="font" crossorigin="" type="font/otf" />-->
+<!--    <link rel="preload" href="assets/fonts/SpaceGrotesk-SemiBold.ttf" as="font" crossorigin="" type="font/otf" />-->
 
 </head>
 <body>
@@ -42,7 +43,7 @@ layout: default
         </div>
         <div id="app-side-navigation" class="gap-0d5 app-side-navigation-bars">
             {% for navigation_bar in site.navigation_bars %}
-            <a id="{{ navigation_bar.url }}" href="#{{ navigation_bar.url }}" class="app-side-navigation-bar {% if forloop.first %} navigation_bar_click {% endif %}">
+            <a id="app-side-{{ navigation_bar.url }}" href="#{{ navigation_bar.url }}" class="app-side-navigation-bar {% if forloop.first %} navigation_bar_click {% endif %}">
                 <span class="navigation_bar_url gap-0d5">
                     {% include icon.html icon=navigation_bar.icon %}
                     <span>{{ navigation_bar.title }}</span>
@@ -52,8 +53,10 @@ layout: default
             {% endfor %}
         </div>
     </div>
-    <div class="app-content">
-
+    <div class="app-content" id="app-content">
+        {% for navigation_bar in site.navigation_bars %}
+            {% include contents.html content_id=navigation_bar.url block_index=forloop.index %}
+        {% endfor %}
     </div>
 </div>
 </body>

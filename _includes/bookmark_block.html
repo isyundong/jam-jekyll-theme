@@ -1,0 +1,29 @@
+<a href="{{ link.url }}" Target="_blank" class="remove_a_style">
+    <div class="bookmark_b">
+        <div class="bbbbb_b">
+            <div class="b_image">
+                {% if link.image %}
+                <img class="aspect-1200-630" src="{{ link.image }}" loading="lazy"/>
+                {% else %}
+                <img class="aspect-1200-630 no_image" src="assets/fallback.avif" loading="lazy"/>
+                {% endif %}
+            </div>
+            <div class="b_content">
+                <h2 class="b_content_title">
+                    {{ link.title | capitalize_words }}
+                </h2>
+                <div class="b_content_url">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2 "><path d="M9 17H7A5 5 0 0 1 7 7h2"></path><path d="M15 7h2a5 5 0 1 1 0 10h-2"></path><line x1="8" x2="16" y1="12" y2="12"></line></svg>
+                    <span>
+                                                        {% assign url_parts = link.url | split: '/' %}
+                                                        {% assign domain = url_parts[2] %}
+                                                        {{ domain }}
+                                                    </span>
+                </div>
+                <div class="b_content_desc">
+                    {{ link.desc }}
+                </div>
+            </div>
+        </div>
+    </div>
+</a>

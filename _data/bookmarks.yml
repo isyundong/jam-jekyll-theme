@@ -1,0 +1,29 @@
+bookmark_list:
+  Apps & Tools:
+    - title: parano id
+      desc: -27x27 Fine Art Print -Matt Fibre 200 g/m² · 100 % α-Zellulose-Canon imagePROGRAF PRO-6100
+      url: https://paranoid.irsyad.co
+      image:
+    - title: hugeicons
+      desc: -27x27 Fine Art Print -Matt Fibre 200 g/m² · 100 % α-Zellulose-Canon imagePROGRAF PRO-6100
+      url: https://hugeicons.com
+      image: assets/images/bookmark/Paranoid.irsyad.jpeg
+  Art & Prints:
+    - title: paranoid.irsyad
+      desc: -27x27 Fine Art Print -Matt Fibre 200 g/m² · 100 % α-Zellulose-Canon imagePROGRAF PRO-6100
+      url: https://paranoid.irsyad.co
+      image:
+    - title: hugeicons
+      desc: A hand-painted motif of people on a beach taking a walk...
+      url: https://hugeicons.com
+      image:
+    - title: segmentui
+      desc:
+      url: https://segmentui.com/design-system
+      image:
+    - title: layers
+      desc: A hand-painted motif of people on a beach taking a walk...
+      url: https://layers.to/explore/trending
+      image: assets/images/bookmark/layers.to.jpeg
+
+

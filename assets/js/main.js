@@ -1,19 +1,60 @@
-// 获取侧边栏袁术
-const appSideNavigation = document.getElementById('app-side-navigation');
-appSideNavigation.addEventListener('click', event => {
-    // 检查点击的目标元素
-    const clickEventId = event.target['id'];
-    console.log(clickEventId)
+let appSideNavigationElement = document.getElementById('app-side-navigation');
+appSideNavigationElement.addEventListener('click', event => {
+    let clickEventId = event.target['id'];
     if (clickEventId !== 'app-side-navigation') {
-        for (let i = 0; i < appSideNavigation.children.length; i++) {
-            if (clickEventId === appSideNavigation.children[i]['id']) {
-                appSideNavigation.children[i].classList.add('navigation_bar_click');
-                appSideNavigation.children[i].classList.add('navigation_bar_click_no_hover');
+        for (let i = 0; i < appSideNavigationElement.children.length; i++) {
+            if (clickEventId === appSideNavigationElement.children[i]['id']) {
+                appSideNavigationElement.children[i].classList.add('navigation_bar_click');
+                appSideNavigationElement.children[i].classList.add('navigation_bar_click_no_hover');
+
             } else {
-                appSideNavigation.children[i].classList.remove('navigation_bar_click');
-                appSideNavigation.children[i].classList.remove('navigation_bar_click_no_hover');
+                appSideNavigationElement.children[i].classList.remove('navigation_bar_click');
+                appSideNavigationElement.children[i].classList.remove('navigation_bar_click_no_hover');
+            }
+        }
+
+        let appContentElement = document.getElementById('app-content')
+        for (let i = 0; i < appContentElement.children.length; i++) {
+            if(appContentElement.children[i]['id'].replace('app-content', '') === clickEventId.replace('app-side', '')) {
+                appContentElement.children[i].classList.remove('block_none')
+            }else {
+                appContentElement.children[i].classList.add('block_none')
             }
         }
     }
-
 })
+
+
+function app_content_writing_click(post_element_id) {
+    var element =  document.getElementById(post_element_id);
+    var siblings = Array.prototype.filter.call(element.parentNode.children, function(child) {
+        return child !== element;
+    });
+    for (let i = 0; i < siblings.length; i++) {
+        siblings[i].classList.remove('include-writing-post-title_click');
+        siblings[i].classList.remove('include_writing_body_post_click');
+    }
+
+    element.classList.add('include-writing-post-title_click');
+    element.classList.add('include_writing_body_post_click');
+
+    document.getElementById('include-writing-post-content-block').innerHTML = document.getElementById(post_element_id + "-post").outerHTML
+
+}
+
+function app_content_bookmark_click(post_element_id) {
+    var element =  document.getElementById(post_element_id);
+    var siblings = Array.prototype.filter.call(element.parentNode.children, function(child) {
+        return child !== element;
+    });
+    for (let i = 0; i < siblings.length; i++) {
+        siblings[i].classList.remove('include-writing-post-title_click');
+        siblings[i].classList.remove('include_writing_body_post_click');
+    }
+
+    element.classList.add('include-writing-post-title_click');
+    element.classList.add('include_writing_body_post_click');
+
+    document.getElementById('include-bookmark-post-content-block').innerHTML = document.getElementById(post_element_id + "-post").outerHTML
+
+}

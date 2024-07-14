@@ -1,0 +1,31 @@
+
+<div class="include-home include-content-wrapper">
+    <div class="include-content">
+        <div>
+            {{ site.home_author_destination | markdownify }}
+        </div>
+        <div>
+            <a>
+                <h2>Writing</h2>
+            </a>
+            <div>
+                <ul class="home_writing_post_title_ul">
+                    <li class="home_writing_post_year"> Year</li>
+                    <li class="home_writing_post_date"> Date</li>
+                    <li class="home_writing_post_title post_title">Title</li>
+                    <li class="home_writing_post_index">Index</li>
+                </ul>
+                {% for post in site.posts %}
+                    <ul class="home_writing_post_ul">
+                        <li class="home_writing_post_year home_post_bottom_border">{{ post.date | date: "%Y" }}</li>
+                        <li class="home_writing_post_date home_post_bottom_border">{{ post.date | date: "%m/%d" }}</li>
+                        <li class="home_writing_post_title home_post_bottom_border">
+                            <span class="post_title">{{ post.title }}</span>
+                        </li>
+                        <li class="home_writing_post_index home_post_bottom_border">{{ forloop.index }}</li>
+                    </ul>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

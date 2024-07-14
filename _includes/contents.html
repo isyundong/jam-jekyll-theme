@@ -1,0 +1,15 @@
+<div id="app-content-{{ include.content_id}}" class="{% if include.block_index != 1 %}block_none{% endif %}">
+    {% if include.content_id == 'home' %}
+        {% include home.html %}
+    {% elsif include.content_id == 'writing' %}
+        {% include writing.html %}
+    {% elsif include.content_id == 'journey' %}
+        {% include journey.html %}
+    {% elsif include.content_id == 'stack' %}
+        {% include stack.html %}
+    {% elsif include.content_id == 'bookmarks' %}
+        {% include bookmarks.html %}
+    {% else %}
+        {% include 404.html %}
+    {% endif %}
+</div>

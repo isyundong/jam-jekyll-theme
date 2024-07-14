@@ -1,0 +1,23 @@
+@media (min-width: 1100px) {
+    .include-content-wrapper {
+        padding: 96px 32px 64px;
+    }
+    .include-content {
+        max-width: 768px;
+    }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1399px) {
+    .bookmark_block_p {
+        display: grid;
+    }
+    .bookmark_block {
+        max-width: unset;
+        width: 100%;
+        justify-items: center;
+    }
+    .bookmark_b {
+        max-width: 520px;
+    }
+}
