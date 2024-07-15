@@ -27,17 +27,21 @@ layout: default
 
 </head>
 <body>
-{% include mobile_header.html %}
-<div class="app-body">
-    {% include app_side.html %}
-    <div class="app-content" id="app-content" onclick="app_content_click()">
-        <div id="page_title"></div>
-        {% for navigation_bar in site.navigation_bars %}
-            {% include contents.html content_id=navigation_bar.url block_index=forloop.index %}
-        {% endfor %}
-    </div>
-</div>
+    <div id="mobile---app-side">
 
+    </div>
+    <main id="app-main">
+        {% include mobile_header.html %}
+        <div class="app-body">
+            {% include app_side.html %}
+            <div class="app-content" id="app-content" onclick="app_content_click()">
+                <div id="page_title"></div>
+                {% for navigation_bar in site.navigation_bars %}
+                    {% include contents.html content_id=navigation_bar.url block_index=forloop.index %}
+                {% endfor %}
+            </div>
+        </div>
+    </main>
 </body>
 
 <script src="assets/js/main.js" async></script>

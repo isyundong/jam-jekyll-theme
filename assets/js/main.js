@@ -62,11 +62,25 @@ function app_content_bookmark_click(post_element_id) {
 
 function app_header_icon_click() {
     document.getElementById('app-side').classList.add('display_unset')
-    document.getElementsByTagName('body')[0].classList.add('background_black')
+    document.getElementById('app-side').classList.add('scale_1d07142857142')
+
+    document.getElementById('app-main').classList.add('scale_0d9333333333333333')
+    document.getElementById('app-main').classList.add('bg_fff')
+    document.getElementById('app-main').classList.add('height_inherit')
+
+
+    document.getElementsByTagName('body')[0].classList.add('bg_000')
 }
 
 function app_content_click() {
     document.getElementById('app-side').classList.remove('display_unset')
-    document.getElementsByTagName('body')[0].classList.remove('background_black')
+    document.getElementById('app-side').classList.remove('scale_1d07142857142')
+
+    document.getElementById('app-main').classList.remove('scale_0d9333333333333333')
+    document.getElementById('app-main').classList.remove('bg_fff')
+    document.getElementById('app-main').classList.remove('height_inherit')
+
+    document.getElementsByTagName('body')[0].classList.remove('bg_000')
+
 }
 

@@ -513,6 +513,32 @@ body {
 }
 
 
-.background_black {
-    background-color: #000;
+.scale_1d07142857142 {
+    transform: scale(1.07142857142) translate3d(0, calc(env(safe-area-inset-top) + 14px), 0);
 }
+.scale_0d9333333333333333 {
+    transform-origin: center top;
+    transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
+    transition-duration: 0.5s;
+    overflow-y: hidden;
+    transform: scale(0.9333333333333333) translate3d(0, calc(env(safe-area-inset-top) + 14px), 0);
+}
+
+.bg_fff {
+    background-color: #ffffff;
+}
+
+.bg_000 {
+    background-color: #000000;
+}
+
+
+.b0d8 {
+    background-color:  rgba(0,0,0,.8);
+    inset: 0
+}
+
+.height_inherit {
+    height: inherit;
+}
+
