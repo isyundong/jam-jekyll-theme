@@ -4,6 +4,15 @@
     }
     .include-content {
         max-width: 768px;
+
+    }
+
+    .page_title {
+        display: none;
+    }
+
+    .mobile_header {
+        display: none;
     }
 }
 

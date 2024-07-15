@@ -1,5 +1,59 @@
 @media screen and (max-width: 1100px) {
+    #app-content {
+        max-width: 768px;
+        margin-top: 47px;
+        padding: 32px 24px;
+    }
+
+    .home_writing_post_year {
+        display: none !important;
+    }
+
+    .home_writing_post_ul {
+        gap: 1.25rem;
+        border-bottom: 1px solid rgb(229 231 235/ 1)
+    }
+
+    .home_writing_post_ul > * {
+        border-bottom: unset;
+    }
+
+    .home_writing_post_title_ul {
+        gap: 1.25rem;
+    }
+
+    .mobile_header {
+        gap: .25rem;
+        align-items: center;
+        padding-left: .75rem;
+        padding-right: .75rem;
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 47px;
+        border-bottom-width: 1px;
+    }
+
+    .mobile_header_icon {
+        height: 36px;
+        width: 36px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .mobile_header_name {
+        font-weight: 600;
+    }
+
     .app-side {
         display: none;
+        max-width: 100%;
+        min-width: 100%;
+        margin-top: 47px;
+        height: 80%;
+        bottom: 0;
+        position: fixed;
+        z-index: 3;
     }
 }

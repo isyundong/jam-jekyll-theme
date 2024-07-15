@@ -6,7 +6,6 @@ appSideNavigationElement.addEventListener('click', event => {
             if (clickEventId === appSideNavigationElement.children[i]['id']) {
                 appSideNavigationElement.children[i].classList.add('navigation_bar_click');
                 appSideNavigationElement.children[i].classList.add('navigation_bar_click_no_hover');
-
             } else {
                 appSideNavigationElement.children[i].classList.remove('navigation_bar_click');
                 appSideNavigationElement.children[i].classList.remove('navigation_bar_click_no_hover');
@@ -21,6 +20,7 @@ appSideNavigationElement.addEventListener('click', event => {
                 appContentElement.children[i].classList.add('block_none')
             }
         }
+
     }
 })
 
@@ -58,3 +58,15 @@ function app_content_bookmark_click(post_element_id) {
     document.getElementById('include-bookmark-post-content-block').innerHTML = document.getElementById(post_element_id + "-post").outerHTML
 
 }
+
+
+function app_header_icon_click() {
+    document.getElementById('app-side').classList.add('display_unset')
+    document.getElementsByTagName('body')[0].classList.add('background_black')
+}
+
+function app_content_click() {
+    document.getElementById('app-side').classList.remove('display_unset')
+    document.getElementsByTagName('body')[0].classList.remove('background_black')
+}
+

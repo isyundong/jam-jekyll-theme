@@ -1,0 +1,26 @@
+<div class="app-side" id="app-side">
+        <div class="side-author gap-0d5">
+            <div class="side-author-head ">
+                <img width="40" src="assets/me.avif">
+            </div>
+            <div class="side-author-synopsis">
+                <span class="side-author-synopsis-author font-semibold tracking-tight">
+                    {{ site.author }}
+                </span>
+                    <span class="side-author-synopsis-job">
+                    {{ site.job}}
+                </span>
+            </div>
+        </div>
+        <div id="app-side-navigation" class="gap-0d5 app-side-navigation-bars">
+            {% for navigation_bar in site.navigation_bars %}
+            <a id="app-side-{{ navigation_bar.url }}" href="#{{ navigation_bar.url }}" class="app-side-navigation-bar {% if forloop.first %} navigation_bar_click {% endif %}">
+                <span class="navigation_bar_url gap-0d5">
+                    {% include icon.html icon=navigation_bar.icon %}
+                    <span>{{ navigation_bar.title }}</span>
+                </span>
+                <span class="navigation_bar_index font-size-small">{{ forloop.index }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>

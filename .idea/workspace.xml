@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/_data/bookmarks.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/bookmark_block.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/bookmarks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/contents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/journey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/stack.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/writing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_plugins/capitalize_words_filter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-01-02-Ubuntu22.04 安装 Docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-03-02-Ubuntu22.04 安装 Docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fallback.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/ec1a1eae803b668e-s.p.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/f980ec13b5b5e554.p.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/grid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bookmark/Paranoid.irsyad.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bookmark/layers.to.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/app_side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/mobile_header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/mobile-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mobile-main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/pc-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/pc-main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/root.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -62,7 +43,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Projects/jam-jekyll-theme/assets/images/bookmark",
+    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,7 +72,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +89,7 @@
       <workItem from="1720850581738" duration="2651000" />
       <workItem from="1720853587463" duration="11169000" />
       <workItem from="1720873329714" duration="8354000" />
+      <workItem from="1721025786079" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
