@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="首页点击事件">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-02-03-Docker 安装 OpenVPN &amp; 使用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2022-03-01-Redis 缓存穿透，缓存击穿，缓存雪崩 问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2023-03-10-Redis 碎片化问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2023-04-12-分布式ID.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2023-11-02-Java本地缓存技术选型（Guava Cache、Caffeine、Encache）.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2023-11-12-如何发现 Redis 热 Key.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2024-04-01-NVIDIA驱动失效简单解决方案：NVIDIA-SMI has failed because it couldn‘t communicate with the NVIDIA driver..md" afterDir="false" />
+    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="添加文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-03-02-Ubuntu22.04 安装 Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/me.avif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/me.avif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +38,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme/_posts",
+    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme/assets",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,11 +51,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="E:\Projects\jam-jekyll-theme\assets\images\bookmark" />
       <recent name="E:\Projects\jam-jekyll-theme\assets" />
       <recent name="D:\Projects\jam-jekyll-theme\_posts" />
-      <recent name="D:\Projects\jam-jekyll-theme\assets\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\jam-jekyll-theme\assets" />
@@ -90,7 +84,7 @@
       <workItem from="1720850581738" duration="2651000" />
       <workItem from="1720853587463" duration="11169000" />
       <workItem from="1720873329714" duration="8354000" />
-      <workItem from="1721025786079" duration="29616000" />
+      <workItem from="1721025786079" duration="30576000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -140,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721123295707</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加文章">
+      <option name="closed" value="true" />
+      <created>1721123757224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721123757224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +154,7 @@
     <MESSAGE value="修复BU G" />
     <MESSAGE value="完成基础样式" />
     <MESSAGE value="首页点击事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页点击事件" />
+    <MESSAGE value="添加文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文章" />
   </component>
 </project>
