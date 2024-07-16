@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="添加手机端样式">
+    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="修复BU G">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/app_side.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/app_side.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/mobile_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/mobile_header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/mobile-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mobile-main.css" afterDir="false" />
@@ -87,7 +88,7 @@
       <workItem from="1720850581738" duration="2651000" />
       <workItem from="1720853587463" duration="11169000" />
       <workItem from="1720873329714" duration="8354000" />
-      <workItem from="1721025786079" duration="12240000" />
+      <workItem from="1721025786079" duration="28336000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -113,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721031706271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修复BU G">
+      <option name="closed" value="true" />
+      <created>1721041477628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721041477628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="添加手机端样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加手机端样式" />
+    <MESSAGE value="修复BU G" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复BU G" />
   </component>
 </project>

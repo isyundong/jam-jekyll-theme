@@ -13,14 +13,15 @@
             </div>
         </div>
         <div id="app-side-navigation" class="gap-0d5 app-side-navigation-bars">
-            {% for navigation_bar in site.navigation_bars %}
-            <a id="app-side-{{ navigation_bar.url }}" href="#{{ navigation_bar.url }}" class="app-side-navigation-bar {% if forloop.first %} navigation_bar_click {% endif %}">
-                <span class="navigation_bar_url gap-0d5">
-                    {% include icon.html icon=navigation_bar.icon %}
-                    <span>{{ navigation_bar.title }}</span>
-                </span>
-                <span class="navigation_bar_index font-size-small">{{ forloop.index }}</span>
-            </a>
+              {% for navigation_bar in site.navigation_bars %}
+                <a onclick="appSideNavigation('app-side-{{ navigation_bar.url }}')" id="app-side-{{ navigation_bar.url }}" href="#{{ navigation_bar.url }}" class="app-side-navigation-bar {% if forloop.first %} navigation_bar_click {% endif %}">
+                    <span class="navigation_bar_url gap-0d5">
+                        {% include icon.html icon=navigation_bar.icon %}
+                        <span>{{ navigation_bar.title }}</span>
+                    </span>
+                    <span class="navigation_bar_index font-size-small">{{ forloop.index }}</span>
+                </a>
             {% endfor %}
+
         </div>
     </div>

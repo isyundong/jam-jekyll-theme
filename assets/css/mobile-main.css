@@ -1,9 +1,71 @@
 @media screen and (max-width: 1100px) {
+    .app-main {
+        background-color: #000000;
+    }
+    #include-bookmark-post-content-block {
+      transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+        transform: translateX(100%);
+        z-index: 99;
+    }
+
+    .include-writing-post-content-block {
+        padding: 56px 32px
+    }
+    #include-writing-post-content-block {
+        padding: 32px 24px;
+        z-index: 99;
+        transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+        transform: translateX(100%)
+    }
+
+    .translateX0d {
+        transform: translateX(0%) !important;
+    }
+
+    .app-body {
+        flex-direction: column;
+    }
+    .include-writing-post-content-block{
+        width: 100%;
+    }
+    .include-writing {
+        width: 100%;
+        max-width: unset;
+        min-width: unset;
+        position: fixed;
+    }
+    .include-writing-head {
+        display: none;
+    }
+    #app-side {
+        border-width: 1px;
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        transform: translateY(100%);
+    }
+    .side-author {
+        padding-left: 0px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .side-author-head > img {
+        border-width: 1px;
+    }
+
+    .mobile_header {
+        background-color: #ffffff;
+    }
+
+    .app-content {
+        background-color: #ffffff;
+    }
+
+    #app-content-home {
+        padding: 32px 24px;
+    }
+
 
     #app-content {
-        max-width: 768px;
         margin-top: 47px;
-        padding: 32px 24px;
     }
 
     .home_writing_post_year {
@@ -49,7 +111,6 @@
 
     .app-side {
         border-radius: 12px;
-        display: none;
         max-width: 100%;
         min-width: 100%;
         margin-top: 47px;

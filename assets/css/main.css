@@ -66,6 +66,9 @@ body, html {
     font-size: 14px
 }
 
+#app-main {
+    height: 100%;
+}
 html {
     height: 100%;
 }
@@ -78,6 +81,7 @@ body {
 
 .app-body {
     display: flex;
+    justify-content: center;
     height: 100%;
 }
 
@@ -91,9 +95,8 @@ body {
 }
 
 .side-author {
-    /*display: flex;*/
+    display: flex;
     padding: 8px;
-    display: none;
 }
 
 .side-author-head {
@@ -506,20 +509,37 @@ body {
     object-position: center;
 }
 
+.show_with_bottom {
 
+}
 
-.display_unset {
-    display: unset !important;
+.opacity0d8 {
+    opacity: 0.8 !important;
+}
+
+#app-shade {
+    transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 2;
+    display: none;
+}
+
+.mobile_header {
+    transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+    transform-origin: bottom ;
+}
+
+#app-content {
+    transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+    transform-origin: top ;
 }
 
 
-.scale_1d07142857142 {
-    transform: scale(1.07142857142) translate3d(0, calc(env(safe-area-inset-top) + 14px), 0);
-}
 .scale_0d9333333333333333 {
-    transform-origin: center top;
-    transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
-    transition-duration: 0.5s;
     overflow-y: hidden;
     transform: scale(0.9333333333333333) translate3d(0, calc(env(safe-area-inset-top) + 14px), 0);
 }
@@ -532,6 +552,10 @@ body {
     background-color: #000000;
 }
 
+.side-author-synopsis-job {
+    font-weight: 200;
+}
+
 
 .b0d8 {
     background-color:  rgba(0,0,0,.8);
@@ -541,4 +565,40 @@ body {
 .height_inherit {
     height: inherit;
 }
+
+
+.border-radius12px_top{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.show_translateYd0 {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+}
+
+
+.overflow-y_hidden {
+    overflow-y: hidden;
+}
+
+#post_icon_return___ {
+    display: none;
+    transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+    opacity: 0;
+}
+
+#side_icon_____ {
+    transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+
+.opacity1{
+    opacity: 1;
+}
+
+.opacity0{
+    opacity: 0;
+}
+
 

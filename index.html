@@ -30,11 +30,12 @@ layout: default
     <div id="mobile---app-side">
 
     </div>
-    <main id="app-main">
+    <main id="app-main" class="height_inherit">
         {% include mobile_header.html %}
+        <div class="shade" id="app-shade" onclick="close_header()"></div>
         <div class="app-body">
             {% include app_side.html %}
-            <div class="app-content" id="app-content" onclick="app_content_click()">
+            <div class="app-content" id="app-content" onclick="close_header()">
                 <div id="page_title"></div>
                 {% for navigation_bar in site.navigation_bars %}
                     {% include contents.html content_id=navigation_bar.url block_index=forloop.index %}
