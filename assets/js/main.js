@@ -147,3 +147,8 @@ function close_header() {
     document.getElementById('app-shade').style.display = 'none'
 }
 
+
+function show_home_page(post_id) {
+    appSideNavigation('app-side-writing')
+    app_content_writing_click('app-content-writing-' + post_id)
+}

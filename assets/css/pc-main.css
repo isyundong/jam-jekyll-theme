@@ -6,7 +6,13 @@
         max-width: 768px;
 
     }
+    .side-author-head > img {
+        border-width: 1px;
+    }
 
+    .side-author {
+        margin-bottom: 10px;
+    }
     .page_title {
         display: none;
     }

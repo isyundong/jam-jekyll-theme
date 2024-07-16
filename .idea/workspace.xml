@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="修复BU G">
+    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="完成基础样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/app_side.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/app_side.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/mobile_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/mobile_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/mobile-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mobile-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/pc-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/pc-main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1720850581738" duration="2651000" />
       <workItem from="1720853587463" duration="11169000" />
       <workItem from="1720873329714" duration="8354000" />
-      <workItem from="1721025786079" duration="28336000" />
+      <workItem from="1721025786079" duration="29447000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -122,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721041477628</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成基础样式">
+      <option name="closed" value="true" />
+      <created>1721122199135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721122199135</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +137,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="添加手机端样式" />
     <MESSAGE value="修复BU G" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复BU G" />
+    <MESSAGE value="完成基础样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成基础样式" />
   </component>
 </project>
