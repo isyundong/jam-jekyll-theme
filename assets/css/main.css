@@ -1,5 +1,5 @@
-@font-face {
-    font-family: __GeistSans_ac79ff;
+@font-face{
+    font-family: '__GeistSans_ac79ff';
     src: url(../fonts/ec1a1eae803b668e-s.p.woff2) format("woff2");
     font-display: swap;
     font-weight: 100 900
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: __GeistSans_Fallback_ac79ff;
+    font-family: '__GeistSans_Fallback_ac79ff';
     src: local("Arial");
     ascent-override:90.59%;
     descent-override:21.66%;
@@ -30,7 +30,7 @@
 }
 
 @font-face {
-    font-family: __GeistMono_8a4d12;
+    font-family: '__GeistMono_8a4d12';
     src: url(../fonts/f980ec13b5b5e554.p.woff2) format("woff2");
     font-display: swap;
     font-weight: 100 900
@@ -43,7 +43,7 @@
 .__variable_8a4d12 {
     --font-geist-mono: "__GeistMono_8a4d12",ui-monospace,SFMono-Regular,Roboto Mono,Menlo,Monaco,Liberation Mono,DejaVu Sans Mono,Courier New,monospace
 }
-/*! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com*/
+
 *,:after,:before {
     border: 0 solid #e5e7eb;
     box-sizing: border-box
@@ -238,7 +238,6 @@ body {
 
 .home_writing_post_title_ul > li {
     display: grid;
-    font-weight: 500;
     color: #6b7280;
 }
 
@@ -252,7 +251,6 @@ body {
 
 .home_writing_post_ul > li {
     display: grid;
-    font-weight: 500;
     padding-bottom: 16px;
     padding-top: 16px;
 }
@@ -343,7 +341,6 @@ body {
 
 
 .post_title {
-    font-weight: 500;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;

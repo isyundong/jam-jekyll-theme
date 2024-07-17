@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="添加文章">
+    <list default="true" id="1221ec22-aebd-436b-8329-7feacf8c76a7" name="Changes" comment="添加头像">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Light-10.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular-14.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/me.avif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/me.avif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/mobile-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mobile-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/root.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Geist-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Geist-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Geist-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceGrotesk-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceGrotesk-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceGrotesk-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceGrotesk-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/ec1a1eae803b668e-s.p.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/f980ec13b5b5e554.p.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +51,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme/assets",
+    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme/assets/fonts",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="E:\Projects\jam-jekyll-theme\assets\images\bookmark" />
       <recent name="E:\Projects\jam-jekyll-theme\assets" />
-      <recent name="D:\Projects\jam-jekyll-theme\_posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\jam-jekyll-theme\assets" />
@@ -84,7 +97,7 @@
       <workItem from="1720850581738" duration="2651000" />
       <workItem from="1720853587463" duration="11169000" />
       <workItem from="1720873329714" duration="8354000" />
-      <workItem from="1721025786079" duration="30576000" />
+      <workItem from="1721025786079" duration="35178000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -142,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721123757224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加头像">
+      <option name="closed" value="true" />
+      <created>1721124417675</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721124417675</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +176,7 @@
     <MESSAGE value="完成基础样式" />
     <MESSAGE value="首页点击事件" />
     <MESSAGE value="添加文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文章" />
+    <MESSAGE value="添加头像" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加头像" />
   </component>
 </project>

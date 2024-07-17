@@ -8,6 +8,18 @@
         z-index: 99;
     }
 
+    .side_side_ {
+        overflow-x: hidden;
+    }
+
+    .bookmark_block_p {
+        flex-direction:column;
+    }
+    .bookmark_block {
+        max-width: unset;
+        width: unset;
+    }
+
     .include-writing-post-content-block {
         padding: 56px 32px
     }
