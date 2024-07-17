@@ -2,6 +2,13 @@
     .app-main {
         background-color: #000000;
     }
+    .bookmark_block_p {
+        flex-direction: column;
+    }
+    .bookmark_block {
+        max-width: unset;
+        width: unset;
+    }
     #include-bookmark-post-content-block {
       transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1), transform-origin 0.5s cubic-bezier(0.32, 0.72, 0, 1);
         transform: translateX(100%);

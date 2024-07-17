@@ -362,6 +362,7 @@ body {
 }
 
 .side_side_ {
+    overflow-x: hidden;
     display: flex;
     height: -webkit-fill-available;
 }

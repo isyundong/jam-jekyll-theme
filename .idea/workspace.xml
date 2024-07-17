@@ -51,7 +51,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme/assets/fonts",
+    "last_opened_file_path": "/Users/yundong.zhang/Documents/Projects/jam-jekyll-theme/assets",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,7 +61,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/fonts" />
@@ -155,28 +155,29 @@
       <option name="project" value="LOCAL" />
       <updated>1721123757224</updated>
     </task>
-    <task id="LOCAL-00008" summary="添加头像">
-      <option name="closed" value="true" />
-      <created>1721124417675</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1721124417675</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="添加手机端样式" />
     <MESSAGE value="修复BU G" />
     <MESSAGE value="完成基础样式" />
     <MESSAGE value="首页点击事件" />
     <MESSAGE value="添加文章" />
-    <MESSAGE value="添加头像" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加头像" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文章" />
   </component>
 </project>
