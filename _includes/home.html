@@ -15,7 +15,7 @@
                     <li class="home_writing_post_title post_title">Title</li>
                     <li class="home_writing_post_index">Index</li>
                 </ul>
-                {% for post in site.posts %}
+                {% for post in site.posts limit : 5 %}
                     <ul class="home_writing_post_ul" onclick="show_home_page('{{ forloop.index }}')">
                         <li class="home_writing_post_year home_post_bottom_border">{{ post.date | date: "%Y" }}</li>
                         <li class="home_writing_post_date home_post_bottom_border">{{ post.date | date: "%m/%d" }}</li>
