@@ -1,50 +1,31 @@
-# jam-jekyll-theme
+# Jam is a refreshing and simple Jekyll theme.
+> Supports both mobile and PC devices
+> 
+<img src="assets/screenshot-1721458700990.png" />
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-TODO: Delete this and the text above, and describe your gem
+# How to use
 
-## Installation
+## Pages
+### Home
+You can adjust your profile in _config.yml<br>
+Default homepage only displays 5 items of posts, But you can modify it in home.html.(search keyword <b>limit : 5</b>)<br>
+<img src="assets/screenshot-1721458666272.png" style="width: 50%; height: auto;" />
 
-Add this line to your Jekyll site's `Gemfile`:
+### Writhing
+The file in markdown format, remember to put it in the _posts folder
 
-```ruby
-gem "jam-jekyll-theme"
-```
 
-And add this line to your Jekyll site's `_config.yml`:
+### Bookmarks
+You can use it as a bookmark.
+![screenshot-1721459553203.png](assets/screenshot-1721459553203.png)
 
-```yaml
-theme: jam-jekyll-theme
-```
 
-And then execute:
+## Files
+All files are stored in the <b>assets</b> directory
 
-    $ bundle
 
-Or install it yourself as:
 
-    $ gem install jam-jekyll-theme
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jam-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jam-jekyll-theme.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+# Demo
+<a href="https://isyundong.com"> Demo </a>
