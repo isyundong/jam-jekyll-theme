@@ -1,5 +1,6 @@
 # Jam is a refreshing and simple Jekyll theme.
-> Supports both mobile and PC devices
+> Supports both mobile and PC devices<br>
+> Inspiration source https://onur.dev/
 > 
 <img src="assets/screenshot-1721458700990.png" />
 
@@ -19,6 +20,9 @@ The file in markdown format, remember to put it in the _posts folder
 
 ### Bookmarks
 You can use it as a bookmark.
+You can configure it in the <b>data/bookmarks.yml</b> file
+
+
 ![screenshot-1721459553203.png](assets/screenshot-1721459553203.png)
 
 
@@ -29,3 +33,9 @@ All files are stored in the <b>assets</b> directory
 
 # Demo
 <a href="https://isyundong.com"> Demo </a>
+
+
+
+# TODO
+- [ ] change fonts
+- [ ] add social networks
