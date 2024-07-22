@@ -1,4 +1,7 @@
 @media screen and (max-width: 1100px) {
+    .b_image img {
+        height: unset;
+    }
     .app-main {
         background-color: #000000;
     }
