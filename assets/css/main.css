@@ -1,4 +1,12 @@
-
+#app-side hr {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+    border-top-width: 1px;
+    color: inherit;
+    height: 0;
+}
 #app-content {
     overflow-y: auto;
 }
