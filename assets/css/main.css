@@ -7,6 +7,33 @@
     color: inherit;
     height: 0;
 }
+.side-end-icon {
+}
+#app-side-end {
+    gap: .25rem;
+}
+.side-icon-vvv * {
+    text-decoration: unset;
+    font-weight: 500;
+}
+.side-social_networks {
+    font-size: 12px;
+    display: flex;
+    padding: 8px;
+    line-height: 1.625;
+    color: rgb(75 85 99 / 1);
+    font-weight: 500;
+}
+.side-end-icon {
+    height: 16px;
+}
+.side-icon-vvv {
+    color: black;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: unset;
+}
 #app-content {
     overflow-y: auto;
 }
@@ -574,3 +601,8 @@ body {
 }
 
 
+.side-icon-vvv:hover{
+    background: rgba(229 231 235);
+    transition: all 0.2s;
+    border-radius: 8px;
+}

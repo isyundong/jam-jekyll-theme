@@ -26,3 +26,11 @@ navigation_bars:
     url: "bookmarks"
     icon: bookmark
 
+
+social_networks:
+  - title: Github
+    url: "https://github.com/isyundong"
+    icon: github
+  - title: X(Twitter)
+    url: "https://x.com/z971003"
+    icon: twitter

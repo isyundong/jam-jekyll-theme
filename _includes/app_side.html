@@ -28,6 +28,16 @@
     </div>
     <hr>
     <div id="app-side-end">
-        111
+        {% for social_network in site.social_networks %}
+            {% if forloop.first %}
+                <span class="side-social_networks">Online</span>
+            {% endif %}
+            <a href="{{ social_network.url }}" target="_blank" class="gap-0d5 side-icon-vvv">
+                <div class="side-end-icon">
+                    {% include icon.html icon=social_network.icon %}
+                </div>
+                <div >{{ social_network.title }}</div>
+            </a>
+        {% endfor %}
     </div>
 </div>
